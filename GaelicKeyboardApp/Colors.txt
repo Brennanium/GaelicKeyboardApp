@@ -1,0 +1,13 @@
+
+
+Dark
+    default key:    255    255    255   0.3
+    key text:       255    255    255
+    key shadow:     0      0      0     0.4
+    dark key:       180    180    180   0.195
+    shift highlight:255    255    255   0.8
+    shift image:    0      0      0
+    background:     57     57     57    0.75
+
+Light
+    background:

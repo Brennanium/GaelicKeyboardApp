@@ -1,0 +1,29 @@
+
+
+default key width:  ceil(keyboardWidth/10.0) - 6.0
+default key height: ceil(keyoardHeight/4.0) - 12.0
+
+
+iPhone 11 Pro
+    default key:    42x32
+    delete/shift:   42x42
+    123 key:        42x88
+    spacebar:       42x183
+    background:     215x375
+    horiz. space:   6
+    vert. space:    12
+    top edge space: 8
+    side edge space:3
+    bot. edge space:3
+
+iPhone 11 Pro Max
+    default key:    42x36
+    delete/shift:   45x45
+    123 key:        45x98
+    spacebar:       45x199
+    background:     225x414
+    horiz. space:   6
+    vert. space:    11
+    top edge space: 8
+    side edge space:3
+    bot. edge space:4

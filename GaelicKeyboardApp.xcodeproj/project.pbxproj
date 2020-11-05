@@ -7,13 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F3244FBB242C11C300C3DA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBA242C11C300C3DA67 /* AppDelegate.swift */; };
-		F3244FBD242C11C300C3DA67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBC242C11C300C3DA67 /* SceneDelegate.swift */; };
-		F3244FBF242C11C300C3DA67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBE242C11C300C3DA67 /* ContentView.swift */; };
-		F3244FC1242C11D000C3DA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3244FC0242C11D000C3DA67 /* Assets.xcassets */; };
 		F3244FC4242C11D000C3DA67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3244FC3242C11D000C3DA67 /* Preview Assets.xcassets */; };
 		F3244FC7242C11D000C3DA67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3244FC5242C11D000C3DA67 /* LaunchScreen.storyboard */; };
+		F3244FD5242C12F100C3DA67 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FD4242C12F100C3DA67 /* KeyboardViewController.swift */; };
+		F3244FD9242C12F100C3DA67 /* GaelicKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F3244FD2242C12F100C3DA67 /* GaelicKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3244FE1242C19AC00C3DA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBA242C11C300C3DA67 /* AppDelegate.swift */; };
+		F3244FE2242C19AC00C3DA67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBC242C11C300C3DA67 /* SceneDelegate.swift */; };
+		F3244FE3242C19AC00C3DA67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBE242C11C300C3DA67 /* ContentView.swift */; };
+		F3244FE4242C19AC00C3DA67 /* KeyboardKeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FDE242C163B00C3DA67 /* KeyboardKeyButton.swift */; };
+		F3244FE5242C19AC00C3DA67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3244FC0242C11D000C3DA67 /* Assets.xcassets */; };
+		F3244FE6242C19AC00C3DA67 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FD4242C12F100C3DA67 /* KeyboardViewController.swift */; };
+		F3244FE7242C19AC00C3DA67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBA242C11C300C3DA67 /* AppDelegate.swift */; };
+		F3244FE8242C19AC00C3DA67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBC242C11C300C3DA67 /* SceneDelegate.swift */; };
+		F3244FE9242C19AC00C3DA67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FBE242C11C300C3DA67 /* ContentView.swift */; };
+		F3244FEA242C19AC00C3DA67 /* KeyboardKeyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3244FDE242C163B00C3DA67 /* KeyboardKeyButton.swift */; };
+		F3244FED242DA06F00C3DA67 /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3244FEC242DA06E00C3DA67 /* Colors.txt */; };
+		F3244FEE242DA06F00C3DA67 /* Colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3244FEC242DA06E00C3DA67 /* Colors.txt */; };
+		F3244FF6242DDAAD00C3DA67 /* Sizes.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3244FF5242DDAAD00C3DA67 /* Sizes.txt */; };
+		F3244FF7242DDAAD00C3DA67 /* Sizes.txt in Resources */ = {isa = PBXBuildFile; fileRef = F3244FF5242DDAAD00C3DA67 /* Sizes.txt */; };
+		F357593C2435B14400FD9AFD /* ReturnKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357593B2435B14400FD9AFD /* ReturnKeyView.swift */; };
+		F357593D2435B14400FD9AFD /* ReturnKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357593B2435B14400FD9AFD /* ReturnKeyView.swift */; };
+		F357593F2435B78800FD9AFD /* NumSwitcherKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357593E2435B78800FD9AFD /* NumSwitcherKeyView.swift */; };
+		F35759402435B78800FD9AFD /* NumSwitcherKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357593E2435B78800FD9AFD /* NumSwitcherKeyView.swift */; };
+		F357594224369FBA00FD9AFD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3244FC3242C11D000C3DA67 /* Preview Assets.xcassets */; };
+		F35759462437C6A900FD9AFD /* SymbolSwitcherKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35759452437C6A900FD9AFD /* SymbolSwitcherKeyView.swift */; };
+		F35759472437C6A900FD9AFD /* SymbolSwitcherKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35759452437C6A900FD9AFD /* SymbolSwitcherKeyView.swift */; };
+		F357594B2437E49C00FD9AFD /* GlobeKeyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357594A2437E49C00FD9AFD /* GlobeKeyButtonView.swift */; };
+		F357594C2437E49C00FD9AFD /* GlobeKeyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F357594A2437E49C00FD9AFD /* GlobeKeyButtonView.swift */; };
+		F3596F1B2431908500EBF142 /* KeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F1A2431908500EBF142 /* KeyData.swift */; };
+		F3596F1C2431908500EBF142 /* KeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F1A2431908500EBF142 /* KeyData.swift */; };
+		F3596F1E2431BFA700EBF142 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F1D2431BFA700EBF142 /* KeyboardView.swift */; };
+		F3596F1F2431BFA700EBF142 /* KeyboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F1D2431BFA700EBF142 /* KeyboardView.swift */; };
+		F3596F212432C72300EBF142 /* DragAccrossKeyboardTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F202432C72200EBF142 /* DragAccrossKeyboardTesting.swift */; };
+		F3596F222432C72300EBF142 /* DragAccrossKeyboardTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F202432C72200EBF142 /* DragAccrossKeyboardTesting.swift */; };
+		F3596F24243300A900EBF142 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F23243300A900EBF142 /* KeyView.swift */; };
+		F3596F25243300A900EBF142 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F23243300A900EBF142 /* KeyView.swift */; };
+		F3596F2724345A9F00EBF142 /* DeleteKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F2624345A9E00EBF142 /* DeleteKeyView.swift */; };
+		F3596F2824345A9F00EBF142 /* DeleteKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F2624345A9E00EBF142 /* DeleteKeyView.swift */; };
+		F3596F2C243460FC00EBF142 /* ShiftKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F2B243460FB00EBF142 /* ShiftKeyView.swift */; };
+		F3596F2D243460FC00EBF142 /* ShiftKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3596F2B243460FB00EBF142 /* ShiftKeyView.swift */; };
+		F3F6BFCA243839E4003B1138 /* KeyboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F6BFC9243839E4003B1138 /* KeyboardStore.swift */; };
+		F3F6BFCB243839E4003B1138 /* KeyboardStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F6BFC9243839E4003B1138 /* KeyboardStore.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3244FD7242C12F100C3DA67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3244FAF242C11C300C3DA67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3244FD1242C12F100C3DA67;
+			remoteInfo = GaelicKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3244FDD242C12F100C3DA67 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F3244FD9242C12F100C3DA67 /* GaelicKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F3244FB7242C11C300C3DA67 /* GaelicKeyboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaelicKeyboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +83,34 @@
 		F3244FC3242C11D000C3DA67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F3244FC6242C11D000C3DA67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3244FC8242C11D000C3DA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3244FD2242C12F100C3DA67 /* GaelicKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GaelicKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3244FD4242C12F100C3DA67 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		F3244FD6242C12F100C3DA67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3244FDE242C163B00C3DA67 /* KeyboardKeyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardKeyButton.swift; sourceTree = "<group>"; };
+		F3244FEC242DA06E00C3DA67 /* Colors.txt */ = {isa = PBXFileReference; explicitFileType = text; path = Colors.txt; sourceTree = "<group>"; };
+		F3244FF5242DDAAD00C3DA67 /* Sizes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Sizes.txt; sourceTree = "<group>"; };
+		F357593B2435B14400FD9AFD /* ReturnKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnKeyView.swift; sourceTree = "<group>"; };
+		F357593E2435B78800FD9AFD /* NumSwitcherKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumSwitcherKeyView.swift; sourceTree = "<group>"; };
+		F35759452437C6A900FD9AFD /* SymbolSwitcherKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolSwitcherKeyView.swift; sourceTree = "<group>"; };
+		F357594A2437E49C00FD9AFD /* GlobeKeyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeKeyButtonView.swift; sourceTree = "<group>"; };
+		F3596F1A2431908500EBF142 /* KeyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyData.swift; sourceTree = "<group>"; };
+		F3596F1D2431BFA700EBF142 /* KeyboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardView.swift; sourceTree = "<group>"; };
+		F3596F202432C72200EBF142 /* DragAccrossKeyboardTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragAccrossKeyboardTesting.swift; sourceTree = "<group>"; };
+		F3596F23243300A900EBF142 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		F3596F2624345A9E00EBF142 /* DeleteKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteKeyView.swift; sourceTree = "<group>"; };
+		F3596F2B243460FB00EBF142 /* ShiftKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftKeyView.swift; sourceTree = "<group>"; };
+		F3F6BFC9243839E4003B1138 /* KeyboardStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F3244FB4242C11C300C3DA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3244FCF242C12F100C3DA67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				F3244FB9242C11C300C3DA67 /* GaelicKeyboardApp */,
+				F3244FD3242C12F100C3DA67 /* GaelicKeyboard */,
 				F3244FB8242C11C300C3DA67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				F3244FB7242C11C300C3DA67 /* GaelicKeyboardApp.app */,
+				F3244FD2242C12F100C3DA67 /* GaelicKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,9 +144,17 @@
 				F3244FBA242C11C300C3DA67 /* AppDelegate.swift */,
 				F3244FBC242C11C300C3DA67 /* SceneDelegate.swift */,
 				F3244FBE242C11C300C3DA67 /* ContentView.swift */,
+				F3244FDE242C163B00C3DA67 /* KeyboardKeyButton.swift */,
+				F3596F1D2431BFA700EBF142 /* KeyboardView.swift */,
+				F3F6BFC9243839E4003B1138 /* KeyboardStore.swift */,
+				F3596F2A243460CD00EBF142 /* Key Views */,
+				F3596F1A2431908500EBF142 /* KeyData.swift */,
+				F3596F202432C72200EBF142 /* DragAccrossKeyboardTesting.swift */,
 				F3244FC0242C11D000C3DA67 /* Assets.xcassets */,
 				F3244FC5242C11D000C3DA67 /* LaunchScreen.storyboard */,
 				F3244FC8242C11D000C3DA67 /* Info.plist */,
+				F3244FEC242DA06E00C3DA67 /* Colors.txt */,
+				F3244FF5242DDAAD00C3DA67 /* Sizes.txt */,
 				F3244FC2242C11D000C3DA67 /* Preview Content */,
 			);
 			path = GaelicKeyboardApp;
@@ -75,6 +168,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F3244FD3242C12F100C3DA67 /* GaelicKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F3244FD4242C12F100C3DA67 /* KeyboardViewController.swift */,
+				F3244FD6242C12F100C3DA67 /* Info.plist */,
+			);
+			path = GaelicKeyboard;
+			sourceTree = "<group>";
+		};
+		F3596F2A243460CD00EBF142 /* Key Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3596F23243300A900EBF142 /* KeyView.swift */,
+				F3596F2B243460FB00EBF142 /* ShiftKeyView.swift */,
+				F3596F2624345A9E00EBF142 /* DeleteKeyView.swift */,
+				F357593B2435B14400FD9AFD /* ReturnKeyView.swift */,
+				F357593E2435B78800FD9AFD /* NumSwitcherKeyView.swift */,
+				F35759452437C6A900FD9AFD /* SymbolSwitcherKeyView.swift */,
+				F357594A2437E49C00FD9AFD /* GlobeKeyButtonView.swift */,
+			);
+			path = "Key Views";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,15 +201,34 @@
 				F3244FB3242C11C300C3DA67 /* Sources */,
 				F3244FB4242C11C300C3DA67 /* Frameworks */,
 				F3244FB5242C11C300C3DA67 /* Resources */,
+				F3244FDD242C12F100C3DA67 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F3244FD8242C12F100C3DA67 /* PBXTargetDependency */,
 			);
 			name = GaelicKeyboardApp;
 			productName = GaelicKeyboardApp;
 			productReference = F3244FB7242C11C300C3DA67 /* GaelicKeyboardApp.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F3244FD1242C12F100C3DA67 /* GaelicKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3244FDA242C12F100C3DA67 /* Build configuration list for PBXNativeTarget "GaelicKeyboard" */;
+			buildPhases = (
+				F3244FCE242C12F100C3DA67 /* Sources */,
+				F3244FCF242C12F100C3DA67 /* Frameworks */,
+				F3244FD0242C12F100C3DA67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaelicKeyboard;
+			productName = GaelicKeyboard;
+			productReference = F3244FD2242C12F100C3DA67 /* GaelicKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -102,10 +237,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Brennanium;
 				TargetAttributes = {
 					F3244FB6242C11C300C3DA67 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					F3244FD1242C12F100C3DA67 = {
 						CreatedOnToolsVersion = 11.4;
 					};
 				};
@@ -124,6 +262,7 @@
 			projectRoot = "";
 			targets = (
 				F3244FB6242C11C300C3DA67 /* GaelicKeyboardApp */,
+				F3244FD1242C12F100C3DA67 /* GaelicKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -134,8 +273,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3244FC7242C11D000C3DA67 /* LaunchScreen.storyboard in Resources */,
+				F3244FE5242C19AC00C3DA67 /* Assets.xcassets in Resources */,
+				F3244FED242DA06F00C3DA67 /* Colors.txt in Resources */,
+				F3244FF6242DDAAD00C3DA67 /* Sizes.txt in Resources */,
 				F3244FC4242C11D000C3DA67 /* Preview Assets.xcassets in Resources */,
-				F3244FC1242C11D000C3DA67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3244FD0242C12F100C3DA67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3244FEE242DA06F00C3DA67 /* Colors.txt in Resources */,
+				F357594224369FBA00FD9AFD /* Preview Assets.xcassets in Resources */,
+				F3244FF7242DDAAD00C3DA67 /* Sizes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,13 +297,57 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3244FBB242C11C300C3DA67 /* AppDelegate.swift in Sources */,
-				F3244FBD242C11C300C3DA67 /* SceneDelegate.swift in Sources */,
-				F3244FBF242C11C300C3DA67 /* ContentView.swift in Sources */,
+				F3596F212432C72300EBF142 /* DragAccrossKeyboardTesting.swift in Sources */,
+				F3244FE4242C19AC00C3DA67 /* KeyboardKeyButton.swift in Sources */,
+				F3244FE6242C19AC00C3DA67 /* KeyboardViewController.swift in Sources */,
+				F3596F1E2431BFA700EBF142 /* KeyboardView.swift in Sources */,
+				F357594B2437E49C00FD9AFD /* GlobeKeyButtonView.swift in Sources */,
+				F3596F1B2431908500EBF142 /* KeyData.swift in Sources */,
+				F35759462437C6A900FD9AFD /* SymbolSwitcherKeyView.swift in Sources */,
+				F3596F2C243460FC00EBF142 /* ShiftKeyView.swift in Sources */,
+				F3596F24243300A900EBF142 /* KeyView.swift in Sources */,
+				F357593C2435B14400FD9AFD /* ReturnKeyView.swift in Sources */,
+				F3244FE1242C19AC00C3DA67 /* AppDelegate.swift in Sources */,
+				F3244FE2242C19AC00C3DA67 /* SceneDelegate.swift in Sources */,
+				F3F6BFCA243839E4003B1138 /* KeyboardStore.swift in Sources */,
+				F3244FE3242C19AC00C3DA67 /* ContentView.swift in Sources */,
+				F3596F2724345A9F00EBF142 /* DeleteKeyView.swift in Sources */,
+				F357593F2435B78800FD9AFD /* NumSwitcherKeyView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3244FCE242C12F100C3DA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3596F222432C72300EBF142 /* DragAccrossKeyboardTesting.swift in Sources */,
+				F3244FEA242C19AC00C3DA67 /* KeyboardKeyButton.swift in Sources */,
+				F3244FE7242C19AC00C3DA67 /* AppDelegate.swift in Sources */,
+				F3596F1F2431BFA700EBF142 /* KeyboardView.swift in Sources */,
+				F357594C2437E49C00FD9AFD /* GlobeKeyButtonView.swift in Sources */,
+				F3596F1C2431908500EBF142 /* KeyData.swift in Sources */,
+				F35759472437C6A900FD9AFD /* SymbolSwitcherKeyView.swift in Sources */,
+				F3596F2D243460FC00EBF142 /* ShiftKeyView.swift in Sources */,
+				F3596F25243300A900EBF142 /* KeyView.swift in Sources */,
+				F357593D2435B14400FD9AFD /* ReturnKeyView.swift in Sources */,
+				F3244FD5242C12F100C3DA67 /* KeyboardViewController.swift in Sources */,
+				F3244FE9242C19AC00C3DA67 /* ContentView.swift in Sources */,
+				F3F6BFCB243839E4003B1138 /* KeyboardStore.swift in Sources */,
+				F3244FE8242C19AC00C3DA67 /* SceneDelegate.swift in Sources */,
+				F3596F2824345A9F00EBF142 /* DeleteKeyView.swift in Sources */,
+				F35759402435B78800FD9AFD /* NumSwitcherKeyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3244FD8242C12F100C3DA67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3244FD1242C12F100C3DA67 /* GaelicKeyboard */;
+			targetProxy = F3244FD7242C12F100C3DA67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F3244FC5242C11D000C3DA67 /* LaunchScreen.storyboard */ = {
@@ -192,6 +387,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -252,6 +448,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -283,9 +480,12 @@
 		F3244FCC242C11D000C3DA67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GaelicKeyboardApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XH437MA6D9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GaelicKeyboardApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,6 +494,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brennanium.GaelicKeyboardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,9 +503,12 @@
 		F3244FCD242C11D000C3DA67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GaelicKeyboardApp/Preview Content\"";
+				DEVELOPMENT_TEAM = XH437MA6D9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GaelicKeyboardApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,6 +517,45 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.brennanium.GaelicKeyboardApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3244FDB242C12F100C3DA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XH437MA6D9;
+				INFOPLIST_FILE = GaelicKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brennanium.GaelicKeyboardApp.GaelicKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3244FDC242C12F100C3DA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XH437MA6D9;
+				INFOPLIST_FILE = GaelicKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brennanium.GaelicKeyboardApp.GaelicKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -335,6 +578,15 @@
 			buildConfigurations = (
 				F3244FCC242C11D000C3DA67 /* Debug */,
 				F3244FCD242C11D000C3DA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3244FDA242C12F100C3DA67 /* Build configuration list for PBXNativeTarget "GaelicKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3244FDB242C12F100C3DA67 /* Debug */,
+				F3244FDC242C12F100C3DA67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
